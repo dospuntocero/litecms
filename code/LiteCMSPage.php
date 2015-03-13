@@ -1,5 +1,5 @@
 <?php
-class LiteCMSPage extends SiteTree {
+class LiteCMSPage extends LiteCMSBasicPage {
 	
 	static $hide_ancestor = 'LiteCMSPage'; //dont show ancestry class
 
@@ -107,7 +107,7 @@ class LiteCMSPage extends SiteTree {
 
 
 }
-class LiteCMSPage_Controller extends ContentController {
+class LiteCMSPage_Controller extends LiteCMSBasicPage_Controller {
 
 	private static $allowed_actions = array ();
 }
