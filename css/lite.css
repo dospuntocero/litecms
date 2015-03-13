@@ -1,17 +1,8 @@
-.ui-accordion .ui-accordion-content { padding: 1em 2.2em; border-top: 0; overflow: none!important; zoom: 1; }
-.ui-accordion .ui-accordion-content:after {content:"";display:table;clear:both;}
-
-.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all{
-	display: none;
-}
 .cms-logo span {
   font-size: 11px;
   font-weight: bold;
   line-height: 20px;
   padding: 2px 0;
-}
-.cms-logo,#Menu-Help{
-	display: none;
 }
 
 #Root_Main .field{
@@ -27,12 +18,16 @@
 	-moz-border-radius: 0px;
 	-ms-border-radius: 0px;
 	-o-border-radius: 0px;
-  border-radius: 0px !important;
+    border-radius: 0px !important;
 	background: #fff;
 }
 
-.cms-container .CMSPageEditController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel, .cms-container .CMSPageSettingsController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel, .cms-container .CMSPageHistoryController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel,
-.cms-container .CMSPageEditController .cms-edit-form, .cms-container .CMSPageSettingsController .cms-edit-form, .cms-container .CMSPageHistoryController .cms-edit-form{
+.cms-container .CMSPageEditController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel,
+.cms-container .CMSPageSettingsController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel,
+.cms-container .CMSPageHistoryController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel,
+.cms-container .CMSPageEditController .cms-edit-form,
+.cms-container .CMSPageSettingsController .cms-edit-form,
+.cms-container .CMSPageHistoryController .cms-edit-form{
 	background: #FBFBFB;
 }
 .ss-uploadfield .middleColumn{
@@ -61,7 +56,9 @@
 	height: 39px !important;
 	background: #00111d;
 }
-.cms-container .CMSPageEditController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel, .cms-container .CMSPageSettingsController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel, .cms-container .CMSPageHistoryController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel{
+.cms-container .CMSPageEditController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel,
+.cms-container .CMSPageSettingsController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel,
+.cms-container .CMSPageHistoryController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel{
 	border: none;
 }
 .cms-content-header{
@@ -82,7 +79,7 @@
 .cms table.ss-gridfield-table tr.title th,
 .cms .cms-panel-padded{
 	background-image: none;
-  text-shadow:none;
+    text-shadow:none;
 }
 
 .cms .ss-ui-button.ss-ui-action-constructive{
@@ -91,4 +88,17 @@
 }
 .cms .ss-ui-button.ss-ui-action-destructive{
   color: #999;
+}
+
+.cms-logo,
+#Menu-Help {
+    display: none;
+}
+
+
+.cms-tabset-nav-primary {
+    display: none;
+}
+.field input.text, .field textarea, .field .TreeDropdownField{
+	background-image: none;
 }
