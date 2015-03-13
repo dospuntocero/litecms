@@ -1,0 +1,13 @@
+{
+    "name": "dospuntocero/litecms",
+    "type": "silverstripe-module",
+    "description": "Simplifies and changes the way SilverStripeCMS looks like, it's faster than the original and loads a lot less stuff. Other things are hidden using CSS. The idea is to provide a better user experience for the end user.",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Francisco Arenas",
+			"email": "fa@dospuntocero.cl",
+			"role": "Developer"
+		}
+	]
+}
