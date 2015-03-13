@@ -9,5 +9,8 @@
 			"email": "fa@dospuntocero.cl",
 			"role": "Developer"
 		}
-	]
+	],
+    "require": {
+        "nathancox/silverstripe-sortableuploadfield": "dev-master"
+    }
 }
