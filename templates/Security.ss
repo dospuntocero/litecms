@@ -8,7 +8,7 @@
 </head>
 <body class="Login">
 	<div class="form">
-		<img src="$ThemeDir/images/logo.png" title="$SiteConfig.Title" />
+		<img class="logo" src="$ThemeDir/images/logo.png" title="$SiteConfig.Title" />
 		$Content
 		$Form
 		$ClearReq
