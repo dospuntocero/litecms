@@ -21,6 +21,13 @@
     border-radius: 0px !important;
 	background: #fff;
 }
+.ss-uploadfield .middleColumn{
+	max-width: auto !important;
+	width: auto !important;
+	clear: none !important;
+	float: left;
+}
+
 
 .cms-container .CMSPageEditController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel,
 .cms-container .CMSPageSettingsController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel,
