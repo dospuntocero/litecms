@@ -1,1 +1,116 @@
+.cms-logo span {
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 2px 0;
+}
 
+#Root_Main .field{
+	border: none !important;
+}
+
+.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all.ui-accordion-icons{
+	background: #ECECE9;
+}
+
+.ss-uploadfield .middleColumn,.ss-uploadfield-files.files,.field input.text, .field textarea, .field .TreeDropdownField{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-o-border-radius: 0px;
+    border-radius: 0px !important;
+	background: #fff;
+}
+.ss-uploadfield .middleColumn{
+	width: auto !important;
+	clear: none !important;
+	float: left;
+	max-width: 610px !important;
+}
+
+
+.cms-container .CMSPageEditController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel,
+.cms-container .CMSPageSettingsController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel,
+.cms-container .CMSPageHistoryController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel,
+.cms-container .CMSPageEditController .cms-edit-form,
+.cms-container .CMSPageSettingsController .cms-edit-form,
+.cms-container .CMSPageHistoryController .cms-edit-form{
+	background: #FBFBFB;
+}
+.ss-uploadfield .middleColumn{
+	background-image: none !important;
+}
+.cms-menu-list li a{
+	background: #b0bec7;
+}
+.cms-content-actions{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.message.good{
+	text-shadow: none;
+}
+.cms-menu,.cms-content-tools{
+	border-right: 1px solid #aaa !important;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background-image: none;
+}
+.cms-logo-header.north{
+	height: 39px !important;
+	background: #00111d;
+}
+.cms-container .CMSPageEditController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel,
+.cms-container .CMSPageSettingsController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel,
+.cms-container .CMSPageHistoryController .ss-tabset .ui-tabs-nav ~ .ui-tabs-panel{
+	border: none;
+}
+.cms-content-header{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-bottom: 1px solid #999;
+	background-image: none;
+	background-color: #CDD0D1;
+}
+.cms-menu-list li.current a{
+	background-color: #338DC1;
+	background-image: none;
+}
+
+.cms .ss-ui-button,
+.cms table.ss-gridfield-table tr td.bottom-all,
+.cms table.ss-gridfield-table tr.title th,
+.cms .cms-panel-padded{
+	background-image: none;
+    text-shadow:none;
+}
+
+.cms .ss-ui-button.ss-ui-action-constructive{
+  background: #999 !important;
+  text-shadow:none;
+}
+.cms .ss-ui-button.ss-ui-action-destructive{
+  color: #999;
+}
+
+.cms-logo,
+#Menu-Help {
+    display: none;
+}
+
+
+.cms-tabset-nav-primary {
+    display: none;
+}
+.field input.text, .field textarea, .field .TreeDropdownField{
+	background-image: none;
+}
+
+
+.ss-uploadfield-item-name small{
+	display: none;
+}
