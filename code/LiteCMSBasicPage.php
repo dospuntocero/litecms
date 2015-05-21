@@ -56,6 +56,9 @@ class LiteCMSBasicPage extends SiteTree {
 		if ($PrevNext) return $PrevNext;
 	}
 	
+	function ClearAll(){
+		Requirements::clear();
+	}
 	
 }
 class LiteCMSBasicPage_Controller extends ContentController {
