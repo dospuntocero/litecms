@@ -1,8 +1,16 @@
 <?php 
 
-class LiteCMSAttachment extends DataExtension
+class LiteCMSAttachment extends File
 {
-    private static $belongs_many_many = array(
-        'Pages' => 'Page'   
-    );
+	static $default_sort = 'Sort ASC';
+
+	static $db = array(
+		'Sort' => 'Int'
+	);
+
+
+	static $has_one = array(
+		'Page' => 'Page'
+	);
+
 }
