@@ -1,0 +1,14 @@
+---
+Name: mysite
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+
+
+File:
+  allowed_extensions:
+    - svg
+Image:
+  allowed_extensions:
+    - svg
