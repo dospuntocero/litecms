@@ -1,5 +1,5 @@
 <?php 
-
+define('LITECMS', basename(dirname(__FILE__)));
 SSViewer::set_source_file_comments(false);
 
 CMSMenu::remove_menu_item("CommentAdmin");
