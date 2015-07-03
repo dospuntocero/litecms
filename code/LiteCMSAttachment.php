@@ -1,6 +1,6 @@
 <?php 
 
-class LiteCMSAttachment extends File
+class LiteCMSAttachment extends DataExtension
 {
 	static $default_sort = 'Sort ASC';
 
