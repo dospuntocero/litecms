@@ -1,6 +1,6 @@
 <?php 
 
-class LiteCMSImage extends Image
+class LiteCMSImage extends DataExtension
 {
 	static $default_sort = 'Sort ASC';
 
