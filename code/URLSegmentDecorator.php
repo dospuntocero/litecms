@@ -5,18 +5,20 @@
 //  extensions:
 //    URLSegmentDecorator
 
-class URLSegmentDecorator extends DataExtension {
+class URLSegmentDecorator extends DataExtension
+{
 
-	static $db = array(
-		'URLSegment' => 'Varchar(255)'
-	);
+    public static $db = array(
+        'URLSegment' => 'Varchar(255)'
+    );
 
-	function onBeforeWrite() {
-		$this->owner->URLSegment = singleton('SiteTree')->generateURLSegment($this->owner->Title);
-	}
+    public function onBeforeWrite()
+    {
+        $this->owner->URLSegment = singleton('SiteTree')->generateURLSegment($this->owner->Title);
+    }
 
-	public function updateCMSFields(FieldList $fields) {
-		$fields->removeByName('URLSegment');
-	}
-
+    public function updateCMSFields(FieldList $fields)
+    {
+        $fields->removeByName('URLSegment');
+    }
 }
